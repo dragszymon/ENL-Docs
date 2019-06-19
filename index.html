@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  
+  
+  <style>
+      :root {
+        --docsifytabs-border-color: #ededed;
+        --docsifytabs-tab-highlight-color:  #FEC106 ;
+        --theme-color:  #FEC106;
+      }
+
+      .app-name-link{
+        display: inline-block;
+        padding-bottom: 20px;
+        cursor: default;
+      }
+
+      .app-name-link > svg {
+        fill: var(--theme-color);
+        max-width: 60px;
+      }
+
+      .app-name-link > h1{
+        color: var(--theme-color);
+        font-size: 20px;
+        font-weight: 300
+      }
+
+      .sidebar{
+        background-color: #111;
+      }
+
+      .sidebar li {
+        color: rgba(255,255,255,0.4) !important;
+      }
+
+      .sidebar li a{
+        color: rgba(255,255,255,0.95)  !important;
+      }
+
+      .sidebar li.active a{
+        color:  var(--theme-color)   !important;
+      }
+
+      .sidebar-toggle{
+        background-color: transparent;
+      }
+
+     
+    </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Enlighten Development',
+      loadSidebar: '_sidebar.md',
+      repo: '',
+      loadNavbar: true,
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'material', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      }
+    }
+  </script>
+  
+  
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-typescript.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-tsx.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  
+  <script>
+    let init = () => {
+      let logo = document.querySelector('.app-name-link')
+      logo.innerHTML = `
+
+        <svg id="logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 98">
+          <path class="cls-1" d="M1,1V99H99V1ZM90.83,90.83H9.17V9.17H90.83Z" transform="translate(-1 -1)"/>
+          <rect class="cls-1" x="29.94" y="21.78" width="38.11" height="8.17"/>
+          <rect class="cls-1" x="29.94" y="43.56" width="35.39" height="8.17"/>
+          <rect class="cls-1" x="29.94" y="68.06" width="40.83" height="8.17"/>
+        </svg>
+        <h1>Enlighten Development</h1>
+      `
+    
+    }
+    window.onload = init
+  </script>
+</body>
+</html>
