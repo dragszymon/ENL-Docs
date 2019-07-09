@@ -1,4 +1,4 @@
-# Removing elements from Array
+# Removing elements from Array:
 
 
 ### Getting Started

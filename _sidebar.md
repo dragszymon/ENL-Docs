@@ -8,4 +8,5 @@
 * [JavaScript Compendium](javascript-compendium/_getting-started.md)
     * Arrays
         * [Removing elements](javascript-compendium/array-removing-elements.md)
-
+    * Primitive & Reference Types
+        * [Copying & Cloning](javascript-compendium/copying-cloning.md)
