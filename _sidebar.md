@@ -10,3 +10,5 @@
         * [Removing elements](javascript-compendium/array-removing-elements.md)
     * Primitive & Reference Types
         * [Copying & Cloning](javascript-compendium/copying-cloning.md)
+    * Automation of repetitive tasks
+        * [Loops and iteration](javascript-compendium/loops-and-iteration.md)

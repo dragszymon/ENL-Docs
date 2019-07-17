@@ -14,16 +14,20 @@ In the code below you can find out that copying of primitive types can be execut
 ### 1. Description of cloning methods
 
 #### 1.1. .map()
-map calls a provided callback function once for each element in an array, in order, and constructs a new array from the results. callback is invoked only for indexes of the array which have assigned values, including undefined. It is not called for missing elements of the array (that is, indexes that have never been set, which have been deleted or which have never been assigned a value).
+Method calls a provided callback function once for each element in an array, in order, and constructs a new array from the results. Callback is invoked only for indexes of the array which have assigned values, including undefined. It is not called for missing elements of the array (that is, indexes that have never been set, which have been deleted or which have never been assigned a value).
 
 #### 1.2. .forEach()
-method executes a provided function once for each array element.
+Method executes a provided function once for each array element.
 
-#### 1.3. .JSON.stringify()
-method converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.
+#### 1.3. JSON.stringify()
+Method converts a JavaScript object or value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified.
 
-#### 1.4. .JSON.parse()
-method parses a JSON string, constructing the JavaScript value or object described by the string. An optional reviver function can be provided to perform a transformation on the resulting object before it is returned.
+#### 1.4. JSON.parse()
+Method parses a JSON string, constructing the JavaScript value or object described by the string. An optional reviver function can be provided to perform a transformation on the resulting object before it is returned.
+
+#### 1.5. JSON.parse(JSON.stringify())
+
+Combination of above methods has been regarded as the fastest method for deep copying Objects. JSON.parse() takes a JSON string and transforms it into a JavaScript object. JSON.stringify() takes a JavaScript object and transforms it into a JSON string.
 
 ### 2. Code examples 
 
