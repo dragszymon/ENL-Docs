@@ -1,11 +1,7 @@
 # Side Drawer
 
-### Git test
-
-**Bla Bla** Paweł master.
-
 ### Description
-Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. 
+Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.
 
 ### Usage
 
@@ -41,18 +37,18 @@ Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle p
     }
 ```
 
-    
+
 ```css
     enl-side-drawer > .enl-side-drawer__drawer{
         /* Drawer closed */
         transform: translateX(-500px) /* Default */
     }
-    
+
     enl-side-drawer[opened] > .enl-side-drawer__drawer{
         /* Drawer opened */
         transform: translateX(0px) /* Default */
     }
-    
+
 ```
 
 
@@ -82,10 +78,10 @@ Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle p
 
 ```javascript
     let drawer = document.querySelector('enl-side-drawer')
-    
+
     drawer.open()
     console.log(drawer.opened) // true
-    
+
     drawer.close()
     console.log(drawer.opened) // false
 ```
@@ -94,11 +90,11 @@ Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle p
     drawer.addEventListner('onOpen', () => {
         ...
     })
-    
+
     drawer.addEventListner('onClose', () => {
         ...
     })
-    
+
     drawer.addEventListner('onToggle', boolean => {
         ...
     })
@@ -176,7 +172,7 @@ export class EnlSideDrawer {
                     <slot name="content" />
                 </div>
             </div>,
-            <div 
+            <div
                 onClick={this._close.bind(this)}
                 class="enl-side-drawer__backdrop">
             </div>
@@ -216,7 +212,7 @@ enl-side-drawer .enl-side-drawer__drawer{
     background-color: #fff;
     box-shadow: 0 0 20px -8px #000;
     transform: translateX(-500px)
-} 
+}
 
 enl-side-drawer[opened] .enl-side-drawer__drawer{
     transform: translateX(0px)
