@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-* [Start](/)
+* [About](/)
 * [Components](components/_getting-started.md)
     * Drawers
          * [Side Drawer](components/side-drawer.md)

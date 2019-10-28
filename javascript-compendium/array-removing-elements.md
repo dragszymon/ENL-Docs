@@ -1,14 +1,8 @@
 # Removing elements from Array:
 
-
-### Getting Started
-Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym.
-
 ```javascript
     let array = [1,2,3,4,5,6]
 ```
-
-### 1. Basic removal
 
 #### 1.1. Remove the first element from array
 
