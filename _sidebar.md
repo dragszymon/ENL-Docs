@@ -19,3 +19,6 @@
     * [Facebook OG](website-publishing/facebook-og.md)
     * [Publishing Checklist](website-publishing/checklist.md)
 
+* [Webservices](webservices/index.md)
+    * [Pergamon](webservices/pergamon.md)
+    * [Postman Pat](webservices/postmanpat.md)
