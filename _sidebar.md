@@ -12,3 +12,10 @@
         * [Copying & Cloning](javascript-compendium/copying-cloning.md)
     * Automation of repetitive tasks
         * [Loops and iteration](javascript-compendium/loops-and-iteration.md)
+
+* Website publishing
+    * [Google Meta Tags](website-publishing/google.md)
+    * [Favicons](website-publishing/favicons.md)
+    * [Facebook OG](website-publishing/facebook-og.md)
+    * [Publishing Checklist](website-publishing/checklist.md)
+
