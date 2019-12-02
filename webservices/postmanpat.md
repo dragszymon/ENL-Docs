@@ -53,3 +53,4 @@ Name | Required | Description
 `subject` | **True** | Email subject
 `html` | **True** | Email message formated in HTML
 `fromName` | | Friendly name of the sender which will be shown in recipient's inbox
+`replyTo` | | Email address replyTo
