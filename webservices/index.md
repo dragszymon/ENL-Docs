@@ -2,7 +2,7 @@
 
 Enlighten is constantly evolving and following newest development trends. Due to this fact, we are currently investing our resources to build a wide variety of microservices which will automate tasks and decrease development time. Currently we have a few microservices up and running:
 
-### Pergamon
+### Pergamon (deprecated)
 
 **Pergamon** is a web service used to maintain this site. It's purpose is to spawn **docsify** process on `enlighten-webservices` server and pull the git repository on demand in order to update this content.
 

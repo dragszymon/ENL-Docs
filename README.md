@@ -11,7 +11,8 @@ Please note that, even though you should write here anything that would be helpf
 
 Documentation is hosted on [GitHub Respository](https://github.com/dragszymon/ENL-Docs). The project is private so if neccessary ask for invitation to colaborate [Szymon Drąg](mailto:szymon@enlighten.pl) (szymon@enlighten.pl) and then clone the respository into your local enviroment.
 
-To update simply commit all changes to respository and [click this link](http://pergamon.enlighten-webservices.ovh/pull) to run the script which will update the documentation on server.
+To update simply commit all changes to respository.
+ <!-- and [click this link](http://pergamon.enlighten-webservices.ovh/pull) to run the script which will update the documentation on server. -->
 
 #### 3. Developing the documentation
 

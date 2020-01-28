@@ -1,4 +1,4 @@
-# Pergamon
+# Pergamon (deprecated)
 
 ### Check status
 
