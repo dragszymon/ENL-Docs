@@ -21,4 +21,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: sh test-script.sh
+          script: sh services/ENL-Docs/daemons/daemon.sh
