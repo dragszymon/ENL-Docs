@@ -19,6 +19,13 @@
     * [Facebook OG](website-publishing/facebook-og.md)
     * [Publishing Checklist](website-publishing/checklist.md)
 
+* CI/CD
+    * General
+        * [Creating a project](ci-cd/creating-a-project.md)
+        * [Setup automatic deploys](ci-cd/setup-automatic-deploys)
+    * WordPress
+        * *Work in progress*
+
 * [Webservices](webservices/index.md)
     * [Pergamon](webservices/pergamon.md)
     * [Postman Pat](webservices/postmanpat.md)
